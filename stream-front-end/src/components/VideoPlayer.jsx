@@ -12,6 +12,7 @@ function VideoPlayer({ src }) {
     //for init
 
     playerRef.current = videojs(videoRef.current, {
+      
       controls: true,
       autoplay: true,
       muted: true,
